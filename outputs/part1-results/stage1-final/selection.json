@@ -1,0 +1,21 @@
+{
+  "weights": "C:\\Users\\A\\Documents\\Codex\\2026-10-06\\humanizer-rewrite-this-to-sound-natural\\local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\best.pt",
+  "weights_sha256": "08f290625964b6d9fa0bac7048e6f512f0eb434e3a86d2d429d3bacedbc6ad62",
+  "manifest_sha256": "6b7f8c37557f97364648b6e123a8652e839c19efba2f86a9002d7ea3b7e3ac8e",
+  "images_by_split": {
+    "train": 4529,
+    "test": 647,
+    "val": 1295
+  },
+  "model": "YOLOv8s",
+  "imgsz": 1280,
+  "batch": 2,
+  "confidence_floor": 0.001,
+  "nms_iou": 0.7,
+  "max_det": 1000,
+  "torch": "2.11.0+cu128",
+  "ultralytics": "8.3.203",
+  "note": "Checkpoint chosen by training validation fitness; no test-based tuning. Original Colab baseline unavailable for a controlled comparison.",
+  "validation_selected_confidence": 0.2782782782782783,
+  "confidence_criterion": "Maximum unsmoothed mean class F1 on validation curve; fixed before test."
+}

@@ -1,0 +1,102 @@
+{
+  "split": "test",
+  "precision": 0.6479580118775965,
+  "recall": 0.5401222995838366,
+  "map50": 0.5775349583878137,
+  "map50_95": 0.3549381122581866,
+  "speed_ms": {
+    "preprocess": 0.2874567234058112,
+    "inference": 4.7808292112601105,
+    "loss": 0.0030595054051088862,
+    "postprocess": 1.216198608115131
+  },
+  "precision_recall_note": "Ultralytics class-mean precision/recall at its split-specific smoothed mean-F1 operating point, not at confidence .001.",
+  "per_class": [
+    {
+      "class_id": 0,
+      "name": "pedestrian",
+      "precision": 0.7160956663714709,
+      "recall": 0.5862160371106693,
+      "map50": 0.650088873101873,
+      "map50_95": 0.3255892340412808
+    },
+    {
+      "class_id": 1,
+      "name": "people",
+      "precision": 0.6171405414166925,
+      "recall": 0.33842164826933074,
+      "map50": 0.39701037795491656,
+      "map50_95": 0.16034145910020964
+    },
+    {
+      "class_id": 2,
+      "name": "bicycle",
+      "precision": 0.533735012473796,
+      "recall": 0.3173173173173173,
+      "map50": 0.35410859135949757,
+      "map50_95": 0.1652815687508141
+    },
+    {
+      "class_id": 3,
+      "name": "car",
+      "precision": 0.8141515293303699,
+      "recall": 0.8260942966668308,
+      "map50": 0.8640088126039592,
+      "map50_95": 0.6066504307807495
+    },
+    {
+      "class_id": 4,
+      "name": "van",
+      "precision": 0.6536903189839458,
+      "recall": 0.621632488942501,
+      "map50": 0.6566160408576734,
+      "map50_95": 0.48182093220688005
+    },
+    {
+      "class_id": 5,
+      "name": "truck",
+      "precision": 0.6714215508115885,
+      "recall": 0.6540697674418605,
+      "map50": 0.6781382984427817,
+      "map50_95": 0.4785866386294345
+    },
+    {
+      "class_id": 6,
+      "name": "tricycle",
+      "precision": 0.5120749670222259,
+      "recall": 0.4055830003626095,
+      "map50": 0.41857833451044113,
+      "map50_95": 0.2471282988983213
+    },
+    {
+      "class_id": 7,
+      "name": "awning-tricycle",
+      "precision": 0.5472485077765018,
+      "recall": 0.4131455399061033,
+      "map50": 0.4435834239204169,
+      "map50_95": 0.27617808659226983
+    },
+    {
+      "class_id": 8,
+      "name": "bus",
+      "precision": 0.7804562985694565,
+      "recall": 0.6965742251223491,
+      "map50": 0.7546035525117141,
+      "map50_95": 0.5363966675143367
+    },
+    {
+      "class_id": 9,
+      "name": "motor",
+      "precision": 0.6335657260199173,
+      "recall": 0.5421686746987951,
+      "map50": 0.5586132786148633,
+      "map50_95": 0.27140780606756976
+    }
+  ],
+  "validation_fixed_confidence": {
+    "confidence": 0.2782782782782783,
+    "macro_precision": 0.6516668961306438,
+    "macro_recall": 0.5363544765566488,
+    "method": "Approximate values interpolated from test PR curves at the validation-selected confidence; no threshold chosen on test."
+  }
+}

@@ -1,0 +1,6 @@
+*.tgz
+*.tar.gz
+.openai/local/
+__pycache__/
+qa-*.png
+qa-*.json

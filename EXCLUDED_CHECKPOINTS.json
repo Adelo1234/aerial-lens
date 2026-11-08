@@ -1,0 +1,82 @@
+[
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch0.pt",
+    "bytes": 67363683
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch10.pt",
+    "bytes": 67364707
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch15.pt",
+    "bytes": 67365347
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch20.pt",
+    "bytes": 67365987
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch25.pt",
+    "bytes": 67366627
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch30.pt",
+    "bytes": 67367267
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch35.pt",
+    "bytes": 67367907
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch40.pt",
+    "bytes": 67368547
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch45.pt",
+    "bytes": 67369187
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch5.pt",
+    "bytes": 67364067
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch50.pt",
+    "bytes": 67369827
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch55.pt",
+    "bytes": 67370467
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch60.pt",
+    "bytes": 67371107
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch65.pt",
+    "bytes": 67371747
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch70.pt",
+    "bytes": 67372387
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch75.pt",
+    "bytes": 67373027
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch80.pt",
+    "bytes": 67373667
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch85.pt",
+    "bytes": 67374307
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch90.pt",
+    "bytes": 67374947
+  },
+  {
+    "path": "local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\epoch95.pt",
+    "bytes": 67375587
+  }
+]

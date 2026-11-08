@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "label_format": "visdrone",
+  "grouped": true,
+  "images_by_split": {
+    "train": 4529,
+    "test": 647,
+    "val": 1295
+  },
+  "class_counts": {
+    "train": {
+      "car": 101025,
+      "people": 18720,
+      "van": 17403,
+      "truck": 9037,
+      "motor": 20688,
+      "bicycle": 7477,
+      "tricycle": 3270,
+      "awning-tricycle": 2165,
+      "pedestrian": 56408,
+      "bus": 4073
+    },
+    "val": {
+      "pedestrian": 15384,
+      "truck": 2462,
+      "car": 29767,
+      "van": 5066,
+      "people": 5605,
+      "motor": 6054,
+      "bicycle": 2004,
+      "awning-tricycle": 655,
+      "tricycle": 1040,
+      "bus": 1240
+    },
+    "test": {
+      "truck": 1376,
+      "car": 14074,
+      "van": 2487,
+      "pedestrian": 7545,
+      "people": 2734,
+      "bicycle": 999,
+      "tricycle": 502,
+      "motor": 2905,
+      "awning-tricycle": 426,
+      "bus": 613
+    }
+  },
+  "counts": {
+    "ignored": 10345,
+    "boxes": 343204,
+    "background_images": 0,
+    "duplicate_images_grouped": 2,
+    "invalid_box_size": 1
+  },
+  "split_note": "Group ratios may differ from image ratios."
+}

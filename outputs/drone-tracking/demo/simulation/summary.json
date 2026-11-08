@@ -1,0 +1,10 @@
+{
+  "measurement_source": "Analytic synthetic ground-truth boxes; no YOLO/ByteTrack in this demo.",
+  "initial_error": 0.73824115301167,
+  "final_error": 0.06303223543986801,
+  "mean_error": 0.10589901177604986,
+  "zero_commands_while_lost": true,
+  "steps": 240,
+  "dt": 0.05,
+  "gain": 1.0
+}

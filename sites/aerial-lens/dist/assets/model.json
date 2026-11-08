@@ -1,0 +1,23 @@
+{
+  "name": "VisDrone YOLOv8s",
+  "input": [
+    1,
+    3,
+    1280,
+    1280
+  ],
+  "output": [
+    1,
+    14,
+    33600
+  ],
+  "bytes": 45237103,
+  "sha256": "df0f438a60dc74a766056adacbfe74855c9e11b73797e5ad56468288771eb37c",
+  "parts": [
+    "assets/model-1.bin",
+    "assets/model-2.bin",
+    "assets/model-3.bin",
+    "assets/model-4.bin"
+  ],
+  "source_checkpoint_sha256": "08f290625964b6d9fa0bac7048e6f512f0eb434e3a86d2d429d3bacedbc6ad62"
+}

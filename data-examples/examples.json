@@ -1,0 +1,23 @@
+[
+  {
+    "image": "0000002_00005_d_0000014.jpg",
+    "width": 960,
+    "height": 540,
+    "split": "train",
+    "objects": 82
+  },
+  {
+    "image": "0000002_00448_d_0000015.jpg",
+    "width": 960,
+    "height": 540,
+    "split": "train",
+    "objects": 85
+  },
+  {
+    "image": "0000003_00231_d_0000016.jpg",
+    "width": 960,
+    "height": 540,
+    "split": "train",
+    "objects": 39
+  }
+]

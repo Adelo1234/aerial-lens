@@ -1,0 +1,33 @@
+# Local environments and credentials
+.venv*/
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.openai/
+
+# Downloaded datasets and runtime artifacts live outside source history
+*.zip
+*.tgz
+*.tar.gz
+*.pt
+*.onnx
+*.bin
+*.wasm
+*.mp4
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.gif
+local-training/raw/
+local-training/extracted/
+local-training/dataset/images/
+local-training/dataset/labels/
+RUNTIME_ASSETS_MANIFEST.json
+
+# New generated runs; historical evidence is explicitly committed once
+outputs/drone-tracking/data/
+outputs/drone-tracking/runs/

@@ -1,0 +1,11 @@
+{
+  "scope": "CPU integration smoke test on synthetic images, not VisDrone accuracy.",
+  "trained_epochs": 1,
+  "train_images": 14,
+  "val_images": 4,
+  "test_images": 2,
+  "training_checkpoint_created": true,
+  "evaluation_json_created": true,
+  "tracking_frames": 12,
+  "note": "Randomly initialized YOLOv8n, 64px; no useful accuracy claim."
+}

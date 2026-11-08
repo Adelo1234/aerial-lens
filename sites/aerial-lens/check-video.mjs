@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {sampleTimes,nearestFrame} from './dist/video-utils.js';
+assert.equal(sampleTimes(6,5).length,30);
+assert.deepEqual(sampleTimes(.2,5),[0]);
+assert.ok(sampleTimes(6.01,5).every(time=>time<6.01));
+assert.throws(()=>sampleTimes(61,5));assert.throws(()=>sampleTimes(Infinity,5));
+assert.throws(()=>sampleTimes(0,5));assert.throws(()=>sampleTimes(6,30));
+const frames=[{time:0},{time:.2},{time:.4}];
+assert.equal(nearestFrame(frames,.11,5).time,.2);
+assert.equal(nearestFrame(frames,.09,5).time,0);
+assert.equal(nearestFrame(frames,1,5),null);
+assert.equal(nearestFrame([],0,5),null);
+console.log('Passed: sampled-frame schedule, duration/rate limits, nearest-frame alignment, partial-analysis gaps.');

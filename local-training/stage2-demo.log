@@ -1,0 +1,21 @@
+Sample encoded: C:\Users\A\Documents\Codex\2026-10-06\humanizer-rewrite-this-to-sound-natural\sites\aerial-lens\dist\assets\sample-aerial.mp4
+Processed frames: 30
+Processed frames: 60
+Processed frames: 90
+Processed frames: 120
+Processed frames: 150
+Processed frames: 180
+{
+  "frames": 180,
+  "playback_fps": 30,
+  "duration_s": 6.0,
+  "detections_across_frames": 11483,
+  "distinct_track_ids": 318,
+  "processing_seconds": 17.779761699959636,
+  "pipeline_fps": 10.123870220398322,
+  "display_confidence": 0.28,
+  "tracking_confidence_floor": 0.1,
+  "source_sequence": "VisDrone2019-MOT-train/sequences/uav0000013_00000_v/",
+  "source_repository": "https://github.com/VisDrone/VisDrone-Dataset",
+  "note": "MOT training-sequence excerpt for a functional demo, not a held-out tracking benchmark. Playback set to 30 fps for this demo. Track IDs may switch; distinct IDs do not equal verified unique objects. No drone control is run."
+}

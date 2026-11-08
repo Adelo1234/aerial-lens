@@ -1,0 +1,8 @@
+{
+  "weights": "C:\\Users\\A\\Documents\\Codex\\2026-10-06\\humanizer-rewrite-this-to-sound-natural\\local-training\\runs\\yolov8s-1280-20261008-142900\\candidate\\weights\\best.pt",
+  "split": "val",
+  "precision": 0.6700743183329678,
+  "recall": 0.542893516856551,
+  "map50": 0.583913280740623,
+  "map50_95": 0.3654281638215204
+}
